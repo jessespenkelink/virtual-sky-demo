@@ -29,6 +29,16 @@
                     </select>
                 </div>
                 <div class="input-group">
+                    <label for="cities">Cities</label>
+                    <select id="cities" class="cities" name="cities">
+                        <option value="polar">Choose a city</option>
+                    </select>
+                </div>
+                <div class="input-group">
+                    <label for="clock">Date</label>
+                    <input type="datetime-local" name="clock" id="clock" />
+                </div>
+                <div class="input-group">
                     <label for="fontsize">Font size</label>
                     <input id="fontsize" name="fontsize" type="text" value="14px" />
                 </div>
@@ -185,6 +195,8 @@
                     <label for="az">Az</label>
                     <input id="az" name="az" type="number" value="180" />
                 </div>
+                <br>
+                <button id="save">Save</button>
             </form>
         </div>
         <div class="column">
